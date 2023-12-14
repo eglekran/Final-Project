@@ -30,12 +30,12 @@ Python file with analyses of pharmacies data:
 
 1. Average prices of all medicine by pharmacies
 
-![]()
+![](https://github.com/eglekran/Final-Project/blob/main/images/Average%20prices%20of%20all%20medicine%20by%20pharmacies.png)
 
 2. Price for most popular cold medicine brands
-![]()
+![](https://github.com/eglekran/Final-Project/blob/main/images/Price%20for%20most%20popular%20cold%20medicine%20brands.png)
 
 3. Amount of over-the-counter medicine
-![]()
+![](https://github.com/eglekran/Final-Project/blob/main/images/Amount%20of%20over-the-counter%20medicine.png)
 
 ## Conclusion

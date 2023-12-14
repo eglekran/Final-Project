@@ -18,9 +18,15 @@ skills acquired at Vilnius Coding School.
 Used libraries: pandas, matplotlib, BeautifulSoup4, Numpy, SQLAlchemy,Psycopg2, time,
 Selenium.
 
-100metu_scraping.py
-camelia_scraping.py
-euro_scraping.py
+Python web scraping files:
+###### 100metu_scraping.py
+###### camelia_scraping.py
+###### euro_scraping.py
+
+Python file with analyses of pharmacies data:
+###### Analysis_pharmacys.py
+
+## Vizualizations
 
 
 

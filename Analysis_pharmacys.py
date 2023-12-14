@@ -138,7 +138,7 @@ count.plot(kind='bar', figsize=(15, 10), width=0.9, color='lime')
 plt.title('Amount of medicine by manufacturer', fontsize=30, fontweight="bold")
 plt.ylabel('amount', fontsize=10, fontweight="bold")
 plt.xlabel('manufacturer', fontsize=10, fontweight="bold")
-plt.xticks(rotation=20, fontsize=10, fontweight="bold")
+plt.xticks(rotation=45, fontsize=10, fontweight="bold")
 plt.savefig("Amount of medicine by manufacturer.png", bbox_inches="tight")
 plt.show()
 

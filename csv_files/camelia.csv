@@ -42,11 +42,11 @@ DORMIKIND N150,"9,99",DORMIKIND
 FERVEX 280 mg/10 mg/100 mg granulės geriamajam tirpalui vaikams N8,"6,52",FERVEX
 SUMATRIPTAN ACTAVIS 50 mg dengtos tabletės N2,"3,99",SUMATRIPTAN
 BRONCHIPRET plėvele dengtos tabletės N20,"6,09",BRONCHIPRET
+AMBROLAN 30 mg tabletės N20,"2,79",AMBROLAN
 SINUPRET dengtos tabletės N100,"16,39",SINUPRET
 SINUPRET dengtos tabletės N50,"8,29",SINUPRET
 TONSILGON N geriamieji lašai (tirpalas) 50 ml,"8,19",TONSILGON
 AGNUCASTON plėvele dengtos tabletės N30,"9,19",AGNUCASTON
-GELOMYRTOL FORTE 300 mg skrandyje neirios minkštosios kapsulės N20,"6,69",GELOMYRTOL
 ILON tepalas 25 g,"9,96",ILON
 ALIFLUSIN šnypščiosios granulės 500 mg/200 mg/4 mg N10,"4,89",ALIFLUSIN
 ALIFLUSIN šnypščiosios granulės 500 mg/200 mg/4 mg N20,"9,59",ALIFLUSIN
@@ -90,6 +90,7 @@ DORMIKIND N150,"9,99",DORMIKIND
 FERVEX 280 mg/10 mg/100 mg granulės geriamajam tirpalui vaikams N8,"6,52",FERVEX
 SUMATRIPTAN ACTAVIS 50 mg dengtos tabletės N2,"3,99",SUMATRIPTAN
 BRONCHIPRET plėvele dengtos tabletės N20,"6,09",BRONCHIPRET
+AMBROLAN 30 mg tabletės N20,"2,79",AMBROLAN
 SINUPRET dengtos tabletės N100,"16,39",SINUPRET
 SINUPRET dengtos tabletės N50,"8,29",SINUPRET
 TONSILGON N geriamieji lašai (tirpalas) 50 ml,"8,19",TONSILGON
@@ -133,8 +134,8 @@ NEO-ANGIN kietosios pastilės be cukraus  N24,"5,69",NEO-ANGIN
 SENEBACTUM 100 mg/ml odos tirpalas su lašintuvu 30 ml,"3,41",SENEBACTUM
 TVINGESTIN 400 mg plėvele dengtos tabletės N10,"2,69",TVINGESTIN
 HESIO 450 mg/50 mg plėvele dengtos tabletės N120,"28,89",HESIO
-HESIO 450 mg/50 mg plėvele dengtos tabletės N60,"17,79",HESIO
 HESIO 450 mg/50 mg plėvele dengtos tabletės N30,"8,88",HESIO
+HESIO 450 mg/50 mg plėvele dengtos tabletės N60,"17,79",HESIO
 CANEPHRON INTENS dengtos tabletės N30,"12,69",CANEPHRON
 GALANAS 1 mg/50 mg/ml nosies purškalas 10 ml,"4,19",GALANAS
 IBUGARD 125 mg žvakutės N10,"3,89",IBUGARD
@@ -310,8 +311,8 @@ ACC LONG 600 mg šnypščiosios tabletės N6,"4,60",ACC
 ASPIRIN CARDIO 100 mg skrandyje neirios tabletės N28,"3,55",ASPIRIN
 NALGESIN S 275 mg plėvele dengtos tabletės N10,"3,39",NALGESIN
 FLAVAMED 30 mg tabletės N20,"2,99",FLAVAMED
-HJERTEMAGNYL 75 mg plėvele dengtos tabletės N100,"4,69",HJERTEMAGNYL
 HJERTEMAGNYL 150 mg plėvele dengtos tabletės N30,"3,69",HJERTEMAGNYL
+HJERTEMAGNYL 75 mg plėvele dengtos tabletės N100,"4,69",HJERTEMAGNYL
 HJERTEMAGNYL 150 mg plėvele dengtos tabletės N90,"6,49",HJERTEMAGNYL
 GRIPPOSTAD C kietosios kapsulės N24,"4,99",GRIPPOSTAD
 NICORETTE FRESHMINT 4 mg vaistinė kramtomoji guma N30,"9,89",NICORETTE
@@ -386,8 +387,8 @@ MAGNE B6 geriamasis tirpalas 10 ml N10,"5,63",MAGNE
 EXODERIL 10 mg/ml odos tirpalas 10 ml,"7,29",EXODERIL
 PREFEMIN 20 mg plėvele dengtos tabletės N90,"16,99",PREFEMIN
 "ŠVF vaistažolių arbata SENŲ LAPAI, 2 g, 24 vnt.","2,29",ŠVF
-Kamparo aliejus VALENTIS 100 mg/ml odos tirpalas 30 ml,"1,49",Kamparo
 MAALOX 40 mg/35 mg/ml geriamoji suspensija 250 ml,"5,19",MAALOX
+Kamparo aliejus VALENTIS 100 mg/ml odos tirpalas 30 ml,"1,49",Kamparo
 NUX VOMICA-HOMACCORD geriamieji lašai (tirpalas) 30 ml,"7,75",NUX
 MUCOFALK 3.25 g apelsinų skonio granulės geriamajam tirpalui N20,"10,59",MUCOFALK
 SOLPADEINE SOLUBLE tirpinamosios tabletės N12,"4,99",SOLPADEINE
@@ -420,8 +421,8 @@ BISACODYL GRINDEKS 5 mg skrandyje neirios tabletės N40,"4,79",BISACODYL
 BETADINE 100 mg/ml odos tirpalas 120 ml,"9,39",BETADINE
 ENTEROL 250 mg kietosios kapsulės N10,"6,25",ENTEROL
 VIBROCIL 2.5 mg/0.25 mg/ml nosies lašai (tirpalas) 15 ml,"4,79",VIBROCIL
-VIBURCOL žvakutės N12,"6,19",VIBURCOL
 VERTIGOHEEL tabletės N50,"6,49",VERTIGOHEEL
+VIBURCOL žvakutės N12,"6,19",VIBURCOL
 Medetkų tinktūra VALENTIS odos tirpalas ar koncentratas burnos gleivinės tirpalui 40 ml,"1,35",Medetkų
 VENORUTON 1000 mg šnypščiosios tabletės N15,"14,19",VENORUTON
 ALMAGEL A geriamoji suspensija 170 ml,"3,59",ALMAGEL
@@ -439,8 +440,8 @@ SEDALIA sirupas 200 ml,"6,55",SEDALIA
 BETADINE 100 mg/ml odos tirpalas 1000 ml,"19,59",BETADINE
 HERZ ASS-RATIOPHARM 100 mg tabletės N100,"4,49",HERZ
 VIPROSAL B tepalas 50 g,"7,71",VIPROSAL
-RENNIE 680 mg/80 mg kramtomosios tabletės 24,"3,26",RENNIE
 FERVEX 500 mg/200 mg/25 mg granulės geriamajam tirpalui N8,"6,52",FERVEX
+RENNIE 680 mg/80 mg kramtomosios tabletės 24,"3,26",RENNIE
 SMECTA 3 g milteliai geriamajai suspensijai N30,"7,99",SMECTA
 SMECTA 3 g milteliai geriamajai suspensijai N10,"4,49",SMECTA
 OLYNTH 1 mg/ml nosies purškalas (tirpalas) 10 ml,"4,99",OLYNTH
@@ -518,6 +519,7 @@ Valerijonų tinktūra VALENTIS geriamieji lašai tirpalas 30 ml,"1,08",Valerijon
 EUCABAL-BALSAM S 100 mg/30 mg/g kremas 40 ml,"5,09",EUCABAL-BALSAM
 ACC 200 mg šnypščiosios tabletės N20,"4,98",ACC
 GUTTALAX 7.5 mg/ml geriamieji lašai (tirpalas) 15 ml,"4,25",GUTTALAX
+ROWACHOL skrandyje neirios minkštosios kapsulės N100,"15,39",ROWACHOL
 PROCTO-GLYVENOL 400/40 mg žvakutės N10,"9,42",PROCTO-GLYVENOL
 PROCTO-GLYVENOL 50 mg/20 mg/g tiesiosios žarnos kremas 30 g,"9,42",PROCTO-GLYVENOL
 OTRIVIN 0.5 mg/ml nosies lašai (tirpalas) 10 ml,"3,39",OTRIVIN
@@ -562,8 +564,8 @@ COLDREX HOTREM LEMON 750 mg/10 mg/60 mg milteliai geriamajam tirpalui N5,"4,35",
 HOMEOVOX dengtos tabletės N60,"5,69",HOMEOVOX
 PROSPAN 65 mg šnypščiosios tabletės N10,"6,57",PROSPAN
 HEPEEL tabletės N50,"6,49",HEPEEL
-BRONTEX 15 mg/5 ml sirupas 100 ml,"2,89",BRONTEX
 BRONTEX 7.5 mg/ml geriamieji lašai (tirpalas) 100 ml,"4,59",BRONTEX
+BRONTEX 15 mg/5 ml sirupas 100 ml,"2,89",BRONTEX
 NEURORUBINE FORTE LACTAB plėvele dengtos tabletės N20,"5,19",NEURORUBINE
 OTINUM 200 mg/g ausų lašai (tirpalas) 10 g,"5,27",OTINUM
 CALCIGRAN FORTE 500 mg/400 TV kramtomosios tabletės N60,"9,89",CALCIGRAN
@@ -575,6 +577,7 @@ OFTAGEL 2.5 mg/g akių gelis 10 g,"5,19",OFTAGEL
 VENORUTON FORTE 500 mg tabletės N30,"9,49",VENORUTON
 CALCIGRAN SINE 500 mg kramtomosios tabletės N100,"9,09",CALCIGRAN
 BENFOGAMMA 50 mg dengtos tabletės N50,"7,59",BENFOGAMMA
+ROWACHOL kapsulės N50,"8,29",ROWACHOL
 GYNACOHEEL geriamieji lašai (tirpalas) 30 ml,"7,09",GYNACOHEEL
 HELMINTOX 125 mg/2.5ml geriamoji suspensija 15 ml,"3,89",HELMINTOX
 UPSARIN C 330 mg/200 mg šnypščiosios tabletės N20,"6,62",UPSARIN
@@ -593,16 +596,16 @@ ZYRTEC 10 mg plėvele dengtos tabletės N10,"4,19",ZYRTEC
 PERSEN FORTE kietosios kapsulės N20,"5,89",PERSEN
 PERSEN dengtos tabletės N40,"5,89",PERSEN
 ASPIRIN 500 mg tabletės N20,"3,49",ASPIRIN
-RADIREX 513.5 mg tabletės N10,"3,89",RADIREX
 LORATIN EXPRESS 10 mg tabletės N10,"4,29",LORATIN
+RADIREX 513.5 mg tabletės N10,"3,89",RADIREX
 HELMINTOX 250 mg plėvele dengtos tabletės N3,"3,95",HELMINTOX
 HEMOROL žvakutės N12,"7,19",HEMOROL
 DEEP RELIEF gelis 50 g,"6,33",DEEP
 PANANGIN 158/140 mg plėvele dengtos tabletės N50,"6,89",PANANGIN
 COLDREX HOTREM LEMON 750 mg/10 mg/60 mg milteliai geriamajam tirpalui N10,"3,49",COLDREX
 ASPIRIN 500 mg tabletės N100,"10,09",ASPIRIN
-PROPOLIS MDF 300 mg/ml burnos gleivinės ar gerklų ir ryklės tirpalas 30 ml,"5,49",PROPOLIS
 Kalio permanganatas VALENTIS milteliai odos tirpalui 5 g,"1,45",Kalio
+PROPOLIS MDF 300 mg/ml burnos gleivinės ar gerklų ir ryklės tirpalas 30 ml,"5,49",PROPOLIS
 IBUMETIN 400 mg plėvele dengtos tabletės N10,"2,37",IBUMETIN
 GRIPP-HEEL tabletės N50,"6,49",GRIPP-HEEL
 DICLAC 1 % gelis 50 g,"5,19",DICLAC
@@ -614,7 +617,6 @@ LIDOPOSTERIN tepalas 25 g,"9,56",LIDOPOSTERIN
 LIUGOLIS 12.5 mg/ml burnos gleivinės purškalas (tirpalas) 50 ml,"3,19",LIUGOLIS
 "CAGYNOL ovulė 300 mg, 1vnt.","10,50",CAGYNOL
 NIZORAL 20 mg/ml šampūnas 120 ml,"15,83",NIZORAL
-AMBROLAN 30 mg tabletės N20,"2,79",AMBROLAN
 MAGNESIUM DIASPORAL ORANGE 98.6 mg kietosios pastilės N50,"7,19",MAGNESIUM
 NIQUITIN MINT 2 mg vaistinė kramtomoji guma N30,"8,71",NIQUITIN
 NIQUITIN MINT 4 mg vaistinė kramtomoji guma N30,"8,70",NIQUITIN
@@ -654,13 +656,11 @@ SYMPATHYL plėvele dengtos tabletės N40,"4,54",SYMPATHYL
 ACETYLSALICYLIC ACID GRINDEKS 500 mg tabletės N20,"4,09",ACETYLSALICYLIC
 TEARS NATURALE akių lašai 15 ml,"5,69",TEARS
 MAGNEROT 500 mg tabletės N50,"7,49",MAGNEROT
-ROWACHOL skrandyje neirios minkštosios kapsulės N100,"15,39",ROWACHOL
 Čemeryčių vanduo VALENTIS odos tirpalas 40 ml,"2,07",Čemeryčių
 PHLOGENZYM skrandyje neirios tabletės N40,"12,72",PHLOGENZYM
 Arnikų tinktūra VALENTIS odos tirpalas 40 ml,"1,69",Arnikų
 FARINGOSEPT 10 mg suslėgtosios pastilės N20,"2,99",FARINGOSEPT
 PAXELADINE 2 mg/ml sirupas 125 ml,"5,09",PAXELADINE
-ROWACHOL kapsulės N50,"8,29",ROWACHOL
 PHARMATEX 20 mg makšties tabletės N12,"4,07",PHARMATEX
 HEXORALETTEN N 5 mg/1.5 mg kietosios pastilės N20,"4,39",HEXORALETTEN
 WOBENZYM tabletės N40,"6,89",WOBENZYM

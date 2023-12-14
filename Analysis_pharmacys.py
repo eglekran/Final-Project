@@ -2,6 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 from sqlalchemy import create_engine
+import seaborn as sns
 
 #import data from SQLdb
 engine = create_engine('postgresql://postgres:Reggaere@localhost:5432/vaistines')
@@ -37,7 +38,7 @@ avg_price_100metu = round(df4['price_100metu'].mean(), 2)
 print(f'Kainos vidurkis 100 metu vaistine {avg_price_100metu} €')
 
 
-pharmacys = ['Camelia', '100metu', 'Euro']
+pharmacys = ['Camelia', '100metu', 'Eurovaistine']
 price_avg = [avg_price_camelia,avg_price_100metu,avg_price_euro]
 
 #plot type pie
@@ -51,26 +52,13 @@ plt.savefig("Average prices of all medicine by pharmacies.png", bbox_inches="tig
 plt.show()
 
 
-# data= {'Price_euro': 8.47, 'Price_camelia': 8.07, 'Price_100metu': 7.9  }
-# courses = list(data.keys())
-# values = list(data.values())
-# plt.figure(figsize=(12, 6))
-# fig = plt.figure(figsize=(10, 5))
-# # creating the bar plot
-# plt.bar(courses, values, color='maroon', width=0.4)
-# plt.xlabel("Pharmacies")
-# plt.ylabel("Avarage Price")
-# plt.title("Pharmacies Average Price")
-# plt.show()
-
 # Price for most popular cold medicine brands ##########################################################################
 
-persalimo_vaistai = ['GRIPEX', 'COLDREX', 'THERAFLU']
-brand = ("Theraflu", "Coldrex", "Gripex")
+brand = ("Fervex", "Coldrex", "Gripex")
 pharmacy_price = {
-    'Eurovaistine': (17.56, 6.78, 7.20),
-    'Camelia': (6.99, 7.71, 7.89),
-    '100 metu': (5.17, 7.38, 5.03),
+    'Eurovaistine': (7.35, 6.78, 7.20),
+    'Camelia': (8.55, 7.71, 7.89),
+    '100 metu': (6.52, 7.38, 5.03),
 }
 
 x = np.arange(len(brand))  # the label locations
@@ -99,13 +87,10 @@ plt.show()
 # # Amount of over-the-counter medicine##################################################
 
 a = df1['price_euro'].count()
-print(a)
 b = df2['price_100metu'].count()
-print(b)
 c = df3['price_camelia'].count()
-print(c)
 
-df5 = [c,b,a]
+df5 = [c, b, a]
 pharmacys = ['Camelia', '100metu', 'Euro']
 
 plt.bar(pharmacys, df5, color='maroon')
@@ -114,19 +99,47 @@ plt.savefig("Amount of over-the-counter medicine.png", bbox_inches="tight")
 plt.show()
 
 
-# ###Kuris brandas turi daugiausia vaistu
 
+#############Price for the most popular nasal sprays
 
-fig = plt.figure(figsize=(50, 10)) #create a figure with a 12 width, 4 length
-ax1 = plt.subplot(131) #subplot with 1 row, 3 columns the 1st one
-ax2 = plt.subplot(132) #subplot with 1 row, 3 columns the 2nd one
-ax3 = plt.subplot(133) #subplot with 1 row, 3 columns the 3rd one
-df4.plot(kind='scatter', x='brand', y='price_euro', ax=ax1, figsize=(40, 6))
-df4.plot(kind='scatter', x='brand', y='price_camelia', ax=ax2, figsize=(40, 6))
-df4.plot(kind='scatter', x='brand', y='price_100metu', ax=ax3, figsize=(40, 6))
-plt.savefig("output.png", bbox_inches="tight")
+brand = ("Olydex", "Nasometin", "Olynth")
+pharmacy_price = {
+    'Eurovaistine': (6.10, 7.37, 4.03),
+    'Camelia': (4.99, 7.29, 5.09),
+    '100Metu': (5.01, 7.37, 3.28),
+}
+
+x = np.arange(len(brand))
+width = 0.25
+multiplier = 0
+
+fig, ax = plt.subplots(layout='constrained')
+
+for attribute, measurement in pharmacy_price.items():
+    offset = width * multiplier
+    rects = ax.bar(x + offset, measurement, width, label=attribute)
+    ax.bar_label(rects, padding=3)
+    multiplier += 1
+
+ax.set_ylabel('Price', fontweight="bold")
+ax.set_title('Price for the most popular nasal sprays', fontweight="bold")
+ax.set_xticks(x + width, brand, fontweight="bold")
+ax.legend(loc='upper left', ncols=3)
+ax.set_ylim(0, 30)
+plt.savefig("Price for the most popular nasal sprays.png", bbox_inches="tight")
+
 plt.show()
 
+##########Amount of medicine by manufacturer
+
+count = df4.groupby('manufacturer')['title_camelia'].count().head(15)
+
+count.plot(kind='bar', figsize=(15, 10), width=0.9, color='lime')
+plt.title('Amount of medicine by manufacturer', fontsize=30, fontweight="bold")
+plt.ylabel('amount', fontsize=20, fontweight="bold")
+plt.xticks(rotation=20, fontsize=10, fontweight="bold")
+plt.savefig("Amount of medicine by manufacturer.png", bbox_inches="tight")
+plt.show()
 
 
 

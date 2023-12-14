@@ -1,5 +1,5 @@
 #                               Final Project
-### Details
+## Details
 
 Created by: Skaistė Dikaitė, Eglė Krancevičienė
 
@@ -13,22 +13,25 @@ In this project we used Python, CSV files, PostgreSQL database showing our pract
 skills acquired at Vilnius Coding School.
 
 
-### Applied knowledge
+## Applied knowledge
 
 Used libraries: pandas, matplotlib, BeautifulSoup4, Numpy, SQLAlchemy,Psycopg2, time,
 Selenium.
 
 Python web scraping files:
-###### 100metu_scraping.py
-###### camelia_scraping.py
-###### euro_scraping.py
+###### _100metu_scraping.py_
+###### _camelia_scraping.py_
+###### _euro_scraping.py_
 
 Python file with analyses of pharmacies data:
-###### Analysis_pharmacys.py
+###### _Analysis_pharmacys.py_
 
 ## Vizualizations
 
+1. Average prices of all medicine by pharmacies
 
 
 
-### Conclusion
+
+
+## Conclusion

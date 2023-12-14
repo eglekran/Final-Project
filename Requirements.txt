@@ -2,7 +2,6 @@ pandas
 matplotlib
 BeautifulSoup4
 Numpy
-Seaborn
 SQLAlchemy
 Psycopg2
 time

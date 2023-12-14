@@ -21,7 +21,7 @@ df4.drop_duplicates(subset=['title_camelia'], inplace=True)
 #create new csv file with merged table data
 df4.to_csv("mergeddata.csv", index=False)
 
-#PLOT: average prices of all medicine by pharmacies
+# PLOT: average prices of all medicine by pharmacies
 
 
 df4['price_euro'] = df4['price_euro'].str.replace(',', '.').astype(float)
@@ -43,11 +43,11 @@ price_avg = [avg_price_camelia,avg_price_100metu,avg_price_euro]
 #plot type pie
 explode = (0, 0, 0.1)  # only "explode" the 2nd slice (i.e. 'Hogs')
 fig, ax = plt.subplots()
-title = plt.title('average prices of all medicine by pharmacies', fontweight="bold", fontsize=15)
+title = plt.title('Average prices of all medicine by pharmacies', fontweight="bold", fontsize=15)
 title.set_ha("center")
 ax.pie(price_avg, explode=explode, labels=pharmacys, autopct='%1.1f%%', shadow=True, startangle=90, colors=['indianred','cornflowerblue','yellowgreen'])
 ax.legend(price_avg, title="Average Price EUR", loc="upper left", bbox_to_anchor=(0.85, 1.025))
-plt.savefig("average prices of all medicine by pharmacies.png", bbox_inches="tight")
+plt.savefig("Average prices of all medicine by pharmacies.png", bbox_inches="tight")
 plt.show()
 
 
@@ -96,7 +96,7 @@ plt.show()
 
 
 
-# # Amount of over-the-counter drugs##################################################
+# # Amount of over-the-counter medicine##################################################
 
 a = df1['price_euro'].count()
 print(a)
@@ -109,8 +109,8 @@ df5 = [c,b,a]
 pharmacys = ['Camelia', '100metu', 'Euro']
 
 plt.bar(pharmacys, df5, color='maroon')
-plt.title('Amount of over-the-counter drugs', fontweight="bold", fontsize=15)
-plt.savefig("Amount of over-the-counter drugs.png", bbox_inches="tight")
+plt.title('Amount of over-the-counter medicine', fontweight="bold", fontsize=15)
+plt.savefig("Amount of over-the-counter medicine.png", bbox_inches="tight")
 plt.show()
 
 

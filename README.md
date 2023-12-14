@@ -45,5 +45,13 @@ Python file with analyses of pharmacies data:
 
 ## Conclusion
 
-Didziausia nereceptiniu vaistu asortimenta turi Camelijos vaistine.
-Rementis visu vaistu kainu vidurkiu p
+Analyzes of pharmacies data shows:
+1. Medicine prices are similar in all three pharmacy branches. The most expensive one is eurovaistine.
+2. The compared medicine was: fervex, coldrex, gripex. Data shows that camelia put the highest for this type of medicine.
+3. Analyzes was done to find which pharmacy has the biggest amount of over-the-counter medicine. The result shows that 
+camelia has the biggest assortment.
+4. The compared medicine was: olydex, nasometin, olynth. Data shows that nasal spray nasometin is the most expensive
+among other medicine.
+5. We compared 15 manufactures by amount of medicine that can be found in pharmacies. Two manufactures are the leaders
+(Bayer AG, Berlin Chemie) in medicine production.
+
